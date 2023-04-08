@@ -20,7 +20,7 @@ We need to build a backend system that can support different features for an onl
 
     - [v2] more filter based on etc.
 
-    \
+    
 
 - A user should be able to book a flight considering that users is registered on the platform.
   - User should be able to cancel a booking , and then based on some criteria we can initiate a refund for them
