@@ -59,6 +59,10 @@ We need to build a backend system that can support different features for an onl
 - Traffic estimates-
   - If we consider 30:1 as the search:booking ratio ,then at mac we expect 15000 search queries a day .2 query / s
 
+## Design Diagram
+
+![DesignDiagram](DesignDiagram.png)
+
 ## Search And Flights Service
 
 - Create Flights
@@ -67,7 +71,4 @@ We need to build a backend system that can support different features for an onl
 - Search for Flights
   - Based on multiple filteration we can search for flights
   - Pagination
-
-## Design Diagram
-
-![Diagram ](Blank%20diagram.svg)
+    ![FlightSearchDatabseDiagram](FlightSearchDatabseDiagram.png)
