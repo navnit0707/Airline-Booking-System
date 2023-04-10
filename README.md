@@ -1,5 +1,9 @@
 ## Airline Backend System
 
+### Quick visit different Micro Serivces of this project
+
+- [Search And Flights Service ](https://github.com/navnit0707/FlightsAndSearchServices)
+
 ## Objective:
 
 We need to build a backend system that can support different features for an online company . Our end user is going to be someone who wants to book flight and query about flights so we need a robust system to actually help them give the best experience possible .This doc is solely going to focus one the backend part of the system. We want to prepare the whole backend keeping the fact in mind that the code base should be as maintainable as possible.
@@ -19,8 +23,6 @@ We need to build a backend system that can support different features for an onl
   - We should support fliter of flights based on price , departure time , duration
 
     - [v2] more filter based on etc.
-
-    
 
 - A user should be able to book a flight considering that users is registered on the platform.
   - User should be able to cancel a booking , and then based on some criteria we can initiate a refund for them
@@ -61,7 +63,7 @@ We need to build a backend system that can support different features for an onl
 
 ## Design Diagram
 
-![DesignDiagram](DesignDiagram.png)
+![DesignDiagram](./static/assests/DesignDiagram.png)
 
 ## Search And Flights Service
 
@@ -71,4 +73,7 @@ We need to build a backend system that can support different features for an onl
 - Search for Flights
   - Based on multiple filteration we can search for flights
   - Pagination
-    ![FlightSearchDatabseDiagram](FlightSearchDatabseDiagram.png)
+
+### Diagram
+
+![FlightSearchDatabseDiagram](./static/assests/FlightSearchDatabseDiagram.png)
